@@ -1,1 +1,4 @@
-# Telecom-dataset-EDA
+# Telecom-dataset-EDA 
+### Summary 
+
+The marketing campaign dataset of 41,180 customer records was analyzed to identify segments most responsive to a new subscription plan. After cleaning and feature engineering—transforming pdays, previous, campaign, and economic indicators into categorical variables and removing duration to avoid data leakage the analysis revealed that younger customers (≤ 30) have the highest positive response rate (21%), while seniors (47%) respond strongly but represent a small group. Loan status showed negligible impact, with customers without loans responding at 11.3% versus 10.9% for those with loans. Economic indicators were scrutinized for multicollinearity, leading to the removal of euribor3m and nr.employed. The results strongly support the hypothesis that age drives campaign responsiveness (H1) and show only weak support for the effect of loan status (H2).
